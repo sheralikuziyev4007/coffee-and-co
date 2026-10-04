@@ -6,7 +6,8 @@ import { parseMenu } from "@/utils/menuStorage";
 import { generateId } from "@/utils/id";
 import type { MenuItem, MenuItemInput } from "@/types";
 
-const STORAGE_KEY = "coffee-and-co:menu";
+// v2: фото меню теперь локальные (/images/...). Новая версия ключа сбрасывает старое меню без фото у вернувшихся посетителей.
+const STORAGE_KEY = "coffee-and-co:menu:v2";
 
 export function MenuProvider({ children }: { children: ReactNode }) {
   const [menu, setMenu] = useLocalStorage<MenuItem[]>(STORAGE_KEY, INITIAL_MENU, parseMenu);

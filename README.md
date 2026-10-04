@@ -3,17 +3,25 @@
 Лендинг кофейни с мини-админ-панелью для управления меню. Учебный проект для junior frontend-портфолио, выполненный по
 [техническому заданию](./docs/TZ.md).
 
-> **Демо:** _добавьте ссылку после деплоя на Vercel/Netlify_ (см. раздел «Деплой»)
+> **Демо:** [coffee-and-co-snowy.vercel.app](https://coffee-and-co-snowy.vercel.app/)
 
 ## Скриншоты
 
-| Админ-панель (десктоп) | Админ-панель (мобильная версия) |
-| --- | --- |
-| ![Админ-панель, десктоп](./docs/screenshots/admin-desktop.png) | ![Админ-панель, мобильная версия](./docs/screenshots/admin-mobile.png) |
+**Лендинг**
 
-| Лендинг (главный экран, «О кафе») | Лендинг (отзывы, контакты) |
+| Главный экран и «О кафе» | Меню |
 | --- | --- |
-| ![Лендинг: главный экран](./docs/screenshots/landing-1.jpg) | ![Лендинг: отзывы и контакты](./docs/screenshots/landing-2.jpg) |
+| ![Лендинг: главный экран](./docs/screenshots/landing-hero.webp) | ![Лендинг: меню](./docs/screenshots/landing-menu.webp) |
+
+| Отзывы и контакты |
+| --- |
+| ![Лендинг: отзывы и контакты](./docs/screenshots/landing-contacts.webp) |
+
+**Админ-панель**
+
+| Десктоп | Мобильная версия |
+| --- | --- |
+| ![Админ-панель, десктоп](./docs/screenshots/admin-desktop.webp) | ![Админ-панель, мобильная версия](./docs/screenshots/admin-mobile.webp) |
 
 ## Возможности
 
@@ -114,7 +122,7 @@ npm run typecheck   # только проверка типов
 - **Vercel:** файл `vercel.json`. Импортируйте репозиторий на [vercel.com](https://vercel.com/new) — настройки Vite определятся автоматически.
 - **Netlify:** файл `public/_redirects`. Build command: `npm run build`, publish directory: `dist`.
 
-После деплоя вставьте ссылку в раздел «Демо» выше.
+Демо-версия: https://coffee-and-co-snowy.vercel.app/
 
 ## Перед публикацией замените демо-данные
 
